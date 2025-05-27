@@ -1,0 +1,56 @@
+/* Laptop device */
+@media screen and(max-width :1200px) {
+    
+}
+
+/* tablat device */
+@media screen and(max-width :1024px) {
+    
+}
+
+/* mobile device */
+@media screen and(max-width :640px) {
+    /*-- header starts here */
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-bottom: 1px;
+     height: 800px;
+     position: fixed;
+     flex-direction: column;
+}
+
+/*-- header ends here */
+
+/* Box model start here */
+.images{
+    height: 50px;
+    width: 50px;
+}
+
+  
+/*Box model end here  */
+
+.nav-bar{
+    
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+ 
+    
+    
+}
+
+.imaasges{
+    height: 50px;
+    width: 50px;
+}
+ .youtube{
+    height: 200px;
+    width: 200px;
+ }
+}

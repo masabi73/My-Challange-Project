@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    
+ font-family: "Inter", sans-serif;
+}
+
+.div-container{
+  background-image: linear-gradient(#E6E6FA,#B8E7FA);
+  width: 100%;
+  
+   
+    
+}
+/*-- header starts here */
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.div-header-left span{
+    color: rgb(239, 81, 23);
+}
+.div-header-left h1{
+    color: black;
+    font-weight: bold;
+}
+.div-header-right .btn{
+    background-color: chocolate;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px rgb(184, 146, 118);
+    color: white;
+}
+.div-header-right .btn:hover{
+    cursor: pointer;
+}
+/*-- header ends here */
+
+/* Box model start here */
+ .div-box{
+   background-color: white;
+  
+   margin-left: 60px;
+   margin-right: 60px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   /* align-items: center;
+   justify-content: center; */
+   border-radius: 15px;
+   height: 420px;
+ }
+
+ .div-box .div-01{
+    padding: 15px;
+    margin-top: 10px;
+   text-align: center;
+ }
+ .images{
+    height: 150px;
+ }
+ .div-box .div-02{
+    text-align: center;
+   
+ }
+ .btn{
+    background-color: chocolate;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px rgb(184, 146, 118);
+    color: white;
+ }
+
+ .btn:hover{
+    background-image: linear-gradient(rgb(120, 120, 193),rgb(6, 6, 26));
+    cursor: pointer;
+ }
+     
+/*Box model end here  */
+
+
+/* pragraph start here */
+
+
+.div--box{
+    /* height: 900px; */
+  
+    margin-left: 60px;
+    margin-right: 60px;
+}
+ .div-04{
+   
+   text-align: center;
+}
+/*  pragraph ends here */
+
+/* div-05 start here */
+.nav-bar{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+     margin-top: 48px;
+ 
+    
+    
+}
+.nav-bar {
+
+} .aside-1{
+   
+ width: 75%;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left: 20px;
+ 
+   }
+   /* .aside-1 aside{
+    text-align: center;
+    
+   } */
+
+    
+
+.aside-2{
+width: 25%;
+
+justify-content: flex-start;
+align-items: center;
+
+}
+.imaasges{
+width: 200px;
+height: 200px;
+
+
+
+}
+
+
+/* div-05 ends here */
+
+/* link start here */
+.container-link{
+    margin-top: 100px;
+   
+    text-align: center;
+}
+
+.my-inspiration p{
+/* letter-spacing: 2px; */
+word-spacing: 3px;
+}
+.div-link{
+    
+    padding: 15px;
+     margin-top: 48px;
+    /*border: 1px solid black; */
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.youtube{
+     border: 1px solid black;
+      padding: 15px;
+     
+}
+
+/* link ends here */
+
+/* Card starts here  */
+
+.card{
+   
+   
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 48px;
+   
+}
+
+.card-into-div{
+    
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+
+}
+
+.card-into-div >div{
+  text-align: left;
+  width: 40%;
+  gap: 50px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(169, 185, 185);
+  
+}
+
+.card-into-div >div:hover{
+     background-image: linear-gradient(rgb(136, 158, 158),rgb(56, 194, 194));
+   
+}
+.card-into-div  a:hover{
+    color: black;
+   
+}
+.card-html{
+  background-image: linear-gradient(rgb(214, 248, 248),rgb(61, 223, 223));
+
+}
+.card-css{
+  background-image: linear-gradient(rgb(214, 248, 248),rgb(61, 223, 223));
+}
+.card-tailwind{
+      background-image: linear-gradient(rgb(214, 248, 248),rgb(61, 223, 223));
+}
+    /* Card ends here  */
+
+    /* footer start here */
+    .footer{
+          background-color: aliceblue;
+    }
+.footer .main-div{
+    margin-top: 48px;
+  
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.pragaph{
+  
+ width: 50%;
+  /* text-align: left; */
+  margin-left: 200px;
+  padding: 10px;
+  
+ 
+}
+.pragaph h4{
+   font-weight: bold;
+   text-align: center;
+}
+
+.log{
+    
+   width: 50%;
+   text-align: right;
+   margin-right: 200px;
+    padding: 10px;
+   
+        
+}
+.facebok{
+  height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 3px;
+}
+.github{
+   height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 3px;
+}
+.likdein{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 3px;
+}
+
+
+
+    /* fotter end here */
